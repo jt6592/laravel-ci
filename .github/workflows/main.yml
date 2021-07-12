@@ -36,6 +36,7 @@ jobs:
           echo test, and deploy your project.
           
       # my test
+      - uses: nathanheffley/laravel-phpunit-action@master
       - name: Run my test
         run: vender/bin/phpunit
           
